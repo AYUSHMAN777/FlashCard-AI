@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FlashCard AI",
-  description: "FlashCard AI web application",
+  title: "Cuemath FlashCard AI",
+  description: "Cuemath FlashCard AI web application",
 };
 
 export default function RootLayout({
