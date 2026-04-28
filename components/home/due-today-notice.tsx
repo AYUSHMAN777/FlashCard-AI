@@ -54,7 +54,7 @@ export function DueTodayNotice() {
                   Stay on track before today ends.
                 </p>
               </div>
-              <ArrowUp className="size-5 animate-bounce text-violet-600 dark:text-violet-300" />
+              {/* <ArrowUp className="size-5 animate-bounce text-violet-600 dark:text-violet-300" /> */}
             </div>
 
             <Link
@@ -65,25 +65,25 @@ export function DueTodayNotice() {
             </Link>
           </div>
         ) : (
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-3">
             <div className="grid size-9 place-items-center rounded-xl bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
               <CheckCircle2 className="size-4" />
             </div>
             <div>
-              <p className="text-sm font-medium text-zinc-900 dark:text-white">No due cards left today</p>
-              <p className="text-xs text-zinc-600 dark:text-zinc-300">You are all caught up. Great consistency.</p>
+              <p className="text-sm font-medium text-zinc-900 dark:text-white">No due cards , You can create a new Deck</p>
+              {/* <p className="text-xs text-zinc-600 dark:text-zinc-300">You are all caught up. Great consistency.</p> */}
             </div>
           </div>
         )}
       </div>
 
-      {dueCount > 0 ? (
+      {/* {dueCount > 0 ? (
         <div className="mr-6 mt-1 flex justify-end">
           <div className="rounded-full bg-violet-100/80 p-1 text-violet-700 dark:bg-violet-900/40 dark:text-violet-200">
             <Flame className="size-3.5" />
           </div>
         </div>
-      ) : null}
+      ) : null} */}
     </div>
   );
 }
